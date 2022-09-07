@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="1dp"
+    android:background="#ccc"
+    tools:context=".MainActivity">
+
+
+<androidx.cardview.widget.CardView
+android:id="@+id/cardView"
+android:layout_width="match_parent"
+
+android:layout_height="wrap_content"
+app:cardCornerRadius="8dp"
+app:cardElevation="8dp"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="407dp"
+        android:layout_height="101dp">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imageView15"
+            android:layout_width="98dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="293dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.717"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.515"
+            app:srcCompat="@drawable/asd" />
+
+        <TextView
+            android:id="@+id/lastmessage"
+            android:layout_width="174dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="192dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="dfsdfesdfes"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.182"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="258dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="121dp"
+            android:layout_marginEnd="211dp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.285" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="11dp"
+            android:fontFamily="@font/abhaya_libre_medium"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/lastmessage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

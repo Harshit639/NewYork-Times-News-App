@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/screen_background_dark"
+        android:padding="15dp">
+
+
+        <TextView
+            android:layout_width="259dp"
+            android:layout_height="wrap_content"
+
+            android:text="𝕿𝖍𝖊 𝕹𝖊𝖜 𝖄𝖔𝖗𝖐 𝕿𝖎𝖒𝖊𝖘"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/addphoto"
+            android:layout_width="54dp"
+            android:layout_height="31dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/sendwe" />
+
+        <ImageView
+            android:id="@+id/sendwe"
+            android:layout_width="35dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/search" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
